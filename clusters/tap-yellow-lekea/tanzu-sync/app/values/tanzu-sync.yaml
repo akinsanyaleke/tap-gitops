@@ -1,0 +1,7 @@
+---
+git:
+  url: git@github.com:akinsanyaleke/tap-gitops.git
+  ref: origin/master
+  sub_path: clusters/tap-yellow-lekea/cluster-config
+tap_package_repository:
+  oci_repository: 2f4a0bd4f51240a8b51bd860be5933a3.azurecr.io/tap-yellow/tap-packages
