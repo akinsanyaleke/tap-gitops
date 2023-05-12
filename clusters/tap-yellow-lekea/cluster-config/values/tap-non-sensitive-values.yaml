@@ -3,7 +3,8 @@ tap_install:
   values:
     excluded_packages:
     - policy.apps.tanzu.vmware.com
-    shared:
+    - buildservice.tanzu.vmware.com 
+   shared:
       ingress_domain: "lekea.tap-yellow.azure.tanzu-studio.com"
 
     ceip_policy_disclosed: true # Installation fails if this is not set to true. Not a string.
